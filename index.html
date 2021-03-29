@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post Requests - Kebantai</title>
-    <link rel="stylesheet" href="./post.css">
-    <link rel="stylesheet" href="./Calendar/CalendarPicker.style.css">
-    <link rel="stylesheet" href="./jquery.nice-number.css">
-    <link rel="stylesheet" href="./calendar_wheel/style.css">
+    <title>Post Requests | Kebantai</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/alert.css">
+    <link rel="stylesheet" href="./css/calendar.css">
+    <link rel="stylesheet" href="./css/jquery.nice-number.css">
+    <link rel="stylesheet" href="./css/calendarWheel.css">
 </head>
 
 <body>
     <div class="wrapper">
+        <div class="dark-background"></div>
         <header class="page-header">
-            <div class="dark-background"></div>
             <div class="header-menu">
                 <div class="header-logo">KEBANTAI</div>
                 <ul class="left-header-tab">
@@ -40,7 +42,7 @@
                 <img class="navigation-toggle-icon" src="./images/Header images/burger-icon.svg" alt="">
             </div>
             <div class="navigation right-header-tab">
-                <a href="#" class="right-tab-options  active-page">
+                <a href="#" class="right-tab-options active-page">
                     <span class="right-tab-icon"><img src="./images/Header images/post.svg" alt=""></span>
                     <p class="right-tab-name">Post Requests</p>
                 </a>
@@ -124,7 +126,7 @@
                 <div class="form__prompt form__date">
                     <input type="text" class="form__input" name="" id="form__date-selector" placeholder="choose a date"
                         readonly>
-                    <label class="form__subtitle">Manage the time</label>
+                    <label class="form__subtitle">Manage your time</label>
                 </div>
                 <div class="date-background">
                     <div class="date-wrapper"></div>
@@ -339,10 +341,10 @@
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-firestore.js"></script>
-    <script src="./calendar_wheel/main.js"></script>
+    <script src="./calendarWheel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./jquery.nice-number.js"></script>
-    <script src="Calendar/CalendarPicker.js"></script>
+    <script src="./calendar.js"></script>
     <script src="post.js"></script>
     <script>
         $(function () {
